@@ -7,11 +7,12 @@
 }
 
 .container {
-    width: 1400px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .container-s {
-    width: 1200px;
+    width: 900px;
 }
 
 body {
@@ -31,22 +32,30 @@ img {
     border: 1px solid red;
 }
 
-
-
 .bg-sky {
     background-color: #b4d0e7;
+    height: 580px
 }
 
 
 .btn {
     background-color: #0061ff;
     color: white;
-    border: 1px solid white;
 
 }
 
+
+.col-2-3 {
+    width: 60%;
+}
+
+
+
+
 /* UTILITIES */
 
+
+/* header */
 
 nav {
     align-items: center;
@@ -72,7 +81,6 @@ button {
 }
 
 
-
 header {
     padding: 20px;
     justify-content: space-between;
@@ -82,4 +90,28 @@ header {
 
 header li a {
     color: rgb(95, 95, 95);
+}
+
+
+
+/* main */
+
+h1 {
+    font-size: 3rem;
+    line-height: 60px;
+    padding: 50px 0;
+}
+
+
+.prova {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+}
+
+
+.bg-sky i {
+    font-size: 2.5rem;
 }
