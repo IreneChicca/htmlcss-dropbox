@@ -15,7 +15,8 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 img {
@@ -26,23 +27,59 @@ img {
     display: flex;
 }
 
+.debug {
+    border: 1px solid red;
+}
 
+
+
+.bg-sky {
+    background-color: #b4d0e7;
+}
+
+
+.btn {
+    background-color: #0061ff;
+    color: white;
+    border: 1px solid white;
+
+}
 
 /* UTILITIES */
 
 
+nav {
+    align-items: center;
+}
+
 li {
     list-style: none;
+
 }
 
 a {
     text-decoration: none;
     color: currentColor;
+    font-size: .9rem;
+    padding: 10px;
 }
 
 button {
     border: none;
     background-color: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1rem;
+}
+
+
+
+header {
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+
+header li a {
+    color: rgb(95, 95, 95);
 }
