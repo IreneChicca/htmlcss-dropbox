@@ -18,7 +18,7 @@
 
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+    color
 }
 
 img {
@@ -71,13 +71,13 @@ li {
 a {
     text-decoration: none;
     color: currentColor;
-    font-size: .9rem;
+    font-size: 1rem;
 
 }
 
 p {
     line-height: 23px;
-    font-size: 1.1rem;
+
 }
 
 
@@ -93,7 +93,7 @@ nav {
 button {
     border: none;
     background-color: transparent;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 
@@ -210,6 +210,9 @@ h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    font-size: 1.1em;
+}
 
 .card-box {
     display: flex;
@@ -281,4 +284,16 @@ h3 {
 
 .fa-check {
     color: #0061ff;
+}
+
+
+
+h4:nth-child(odd) {
+    padding: 35px 0 25px;
+
+}
+
+
+.card-body p:nth-child(3) {
+    color: grey;
 }
