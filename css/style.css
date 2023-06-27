@@ -334,8 +334,8 @@ h4:nth-child(odd) {
 
 .partner {
     display: flex;
-    justify-content: space-around;
-
+    column-gap: 50px;
+    padding-top: 95px;
 }
 
 .partner-txt {
@@ -345,4 +345,24 @@ h4:nth-child(odd) {
 
 .partner-txt>* {
     padding: 20px 0;
+}
+
+
+
+/* business feature */
+
+.card-business-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.card-business {
+    padding: 20px;
+    width: 33%;
+}
+
+.card-business>* {
+    padding-bottom: 25px;
 }
