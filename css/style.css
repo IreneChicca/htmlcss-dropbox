@@ -12,13 +12,14 @@
 }
 
 .container-s {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+    word-spacing: 0.1em;
+    letter-spacing: 0.03em;
 }
 
 img {
@@ -29,6 +30,7 @@ img {
     display: flex;
 }
 
+
 .debug {
     border: 1px solid red;
 }
@@ -37,14 +39,24 @@ img {
 .btn {
     background-color: #0061ff;
     color: white;
-
+    padding: 10px 20px;
+    text-align: center;
 }
 
+
+
+
+.col-1-3 {
+    width: 30%;
+}
 
 .col-2-3 {
     width: 60%;
 }
 
+.col-3-3 {
+    width: 100%;
+}
 
 
 
@@ -61,14 +73,13 @@ a {
     text-decoration: none;
     color: currentColor;
     font-size: .9rem;
-    padding: 10px;
+
 }
 
 p {
     line-height: 23px;
     font-size: 1.1rem;
-    word-spacing: 0.2em;
-    letter-spacing: 0.02em;
+
 
 
 }
@@ -103,6 +114,7 @@ header {
 
 header li a {
     color: rgb(95, 95, 95);
+    padding: 10px;
 }
 
 
@@ -119,13 +131,11 @@ h1 {
     font-size: 5rem;
     line-height: 90px;
     padding: 50px 0;
-    word-spacing: 0.2em;
-    letter-spacing: 0.02em;
+
 
 }
 
-
-.prova {
+.jumbo-section {
 
     display: flex;
     flex-direction: column;
@@ -135,18 +145,14 @@ h1 {
     padding-right: 20px;
 }
 
-
 .jumbo {
     background-color: #b4d0e7;
     display: flex;
 }
 
-
 .jumbo a {
     font-size: 1em;
-
 }
-
 
 .jumbo i {
     font-size: 2.5rem;
@@ -159,4 +165,74 @@ h1 {
 
 .jumbo p {
     padding-bottom: 10px;
+}
+
+
+
+/* offer cards */
+
+h2 {
+    font-size: 2em;
+    padding-top: 100px;
+}
+
+.radio-options {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+.radio-off {
+    display: inline-block;
+    border: 2px solid #d2d2d4;
+    border-radius: 50%;
+    height: 10px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.radio-on {
+    display: inline-block;
+    border: 4px solid #0061ff;
+    border-radius: 50%;
+    height: 2px;
+    padding: 5px;
+    margin-right: 8px;
+
+}
+
+
+
+
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+
+.card {
+    border: 1px solid grey;
+    margin-bottom: 30px;
+}
+
+.card div:first-child {
+    border-bottom: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card i {
+    margin-right: 5px;
+}
+
+
+.card-body {
+    padding: 40px 20px;
 }
