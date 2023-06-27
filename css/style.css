@@ -272,17 +272,18 @@ h4 {
 }
 
 
-#buynow a {
+.buynow a,
+.scopri {
     color: #0061ff;
     line-height: 23px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0 5px;
     text-decoration: underline;
 
 }
 
 
-#buynow p {
+.buynow p {
     padding-bottom: 30px;
     border-bottom: 1px solid grey;
 }
@@ -365,4 +366,12 @@ h4:nth-child(odd) {
 
 .card-business>* {
     padding-bottom: 25px;
+}
+
+
+/* boxes */
+
+.scopri {
+    display: inline-block;
+    padding: 40px 0 100px;
 }
