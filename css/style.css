@@ -18,8 +18,7 @@
 
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    word-spacing: 0.1em;
-    letter-spacing: 0.03em;
+
 }
 
 img {
@@ -79,9 +78,6 @@ a {
 p {
     line-height: 23px;
     font-size: 1.1rem;
-
-
-
 }
 
 
@@ -115,6 +111,8 @@ header {
 header li a {
     color: rgb(95, 95, 95);
     padding: 10px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.03em;
 }
 
 
@@ -135,6 +133,11 @@ h1 {
 
 }
 
+.jumbo {
+    background-color: #b4d0e7;
+    display: flex;
+}
+
 .jumbo-section {
 
     display: flex;
@@ -143,11 +146,6 @@ h1 {
     justify-content: space-around;
     padding-bottom: 20px;
     padding-right: 20px;
-}
-
-.jumbo {
-    background-color: #b4d0e7;
-    display: flex;
 }
 
 .jumbo a {
@@ -165,6 +163,8 @@ h1 {
 
 .jumbo p {
     padding-bottom: 10px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.03em;
 }
 
 
@@ -181,7 +181,7 @@ h2 {
     align-items: center;
     padding: 20px 0;
     justify-content: space-between;
-    max-width: 50%;
+    max-width: 45%;
 }
 
 .radio-off {
@@ -206,12 +206,15 @@ h2 {
 
 
 
+h3 {
+    font-size: 1.5em;
+}
+
 
 .card-box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 
 }
 
@@ -229,10 +232,53 @@ h2 {
 }
 
 .card i {
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 
 .card-body {
-    padding: 40px 20px;
+    padding: 40px 25px;
+}
+
+.card-body * {
+    padding-bottom: 15px;
+
+}
+
+.card-body button {
+
+    padding: 40px 0;
+    width: 100%;
+}
+
+.card-body button a {
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 250px;
+}
+
+
+#buynow a {
+    color: #0061ff;
+    line-height: 23px;
+    font-size: 1.1rem;
+    margin: 0 5px;
+    text-decoration: underline;
+
+}
+
+
+#buynow p {
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+
+
+.card-body>.flex {
+    align-items: baseline;
+}
+
+.fa-check {
+    color: #0061ff;
 }
