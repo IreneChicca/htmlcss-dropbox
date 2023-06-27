@@ -173,15 +173,16 @@ h1 {
 
 h2 {
     font-size: 2em;
-    padding-top: 100px;
+    padding-top: 110px;
+    padding-bottom: 20px;
 }
 
 .radio-options {
     display: flex;
     align-items: center;
-    padding: 20px 0;
+    padding: 40px 0;
     justify-content: space-between;
-    max-width: 45%;
+    max-width: 40%;
 }
 
 .radio-off {
