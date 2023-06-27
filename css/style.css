@@ -13,6 +13,7 @@
 
 .container-s {
     width: 900px;
+    margin: 0 auto;
 }
 
 body {
@@ -32,11 +33,6 @@ img {
     border: 1px solid red;
 }
 
-.bg-sky {
-    background-color: #b4d0e7;
-    height: 580px
-}
-
 
 .btn {
     background-color: #0061ff;
@@ -54,12 +50,7 @@ img {
 
 /* UTILITIES */
 
-
-/* header */
-
-nav {
-    align-items: center;
-}
+/*general*/
 
 li {
     list-style: none;
@@ -73,10 +64,28 @@ a {
     padding: 10px;
 }
 
+p {
+    line-height: 23px;
+    font-size: 1.1rem;
+    word-spacing: 0.2em;
+    letter-spacing: 0.02em;
+
+
+}
+
+
+/* header */
+
+nav {
+    align-items: center;
+
+}
+
+
+
 button {
     border: none;
     background-color: transparent;
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1rem;
 }
 
@@ -84,7 +93,11 @@ button {
 header {
     padding: 20px;
     justify-content: space-between;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
 }
 
 
@@ -96,10 +109,19 @@ header li a {
 
 /* main */
 
+/*jumbo */
+
+main {
+    padding-top: 70px;
+}
+
 h1 {
-    font-size: 3rem;
-    line-height: 60px;
+    font-size: 5rem;
+    line-height: 90px;
     padding: 50px 0;
+    word-spacing: 0.2em;
+    letter-spacing: 0.02em;
+
 }
 
 
@@ -107,11 +129,34 @@ h1 {
 
     display: flex;
     flex-direction: column;
-
     align-items: start;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 
-.bg-sky i {
+.jumbo {
+    background-color: #b4d0e7;
+    display: flex;
+}
+
+
+.jumbo a {
+    font-size: 1em;
+
+}
+
+
+.jumbo i {
     font-size: 2.5rem;
+
+}
+
+.jumbo img {
+    margin-bottom: -60px;
+}
+
+.jumbo p {
+    padding-bottom: 10px;
 }
