@@ -527,3 +527,27 @@ h4 {
     margin-right: 45px;
     font-size: 0.7em;
 }
+
+
+
+
+/* footer */
+
+.col-1-5 {
+    width: 25%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 100px 0;
+}
+
+footer h3 {
+    padding-bottom: 30px;
+}
+
+footer li {
+    padding: 10px 0;
+    color: #b0b0b0;
+}
