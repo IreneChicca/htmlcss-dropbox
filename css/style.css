@@ -422,3 +422,21 @@ h4:nth-child(odd) {
     background-color: red;
 
 }
+
+
+.col-2 {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+
+
+
+.col-2>* {
+    padding-bottom: 50px;
+}
+
+.col-2 div {
+    width: 20%;
+    border-top: 2px solid #d3d3d6;
+}
