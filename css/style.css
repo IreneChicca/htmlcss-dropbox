@@ -181,7 +181,7 @@ h1 {
 /* offer cards */
 
 h2 {
-    font-size: 2em;
+    font-size: 2.2em;
     padding-top: 110px;
     padding-bottom: 20px;
 }
@@ -299,7 +299,7 @@ h4 {
 
 
 
-h4:nth-child(odd) {
+.card-body h4:nth-child(odd) {
     padding: 35px 0 25px;
 
 }
@@ -469,10 +469,10 @@ h4:nth-child(odd) {
 .banner {
 
     background-color: #b4d0e7;
-
     height: 300px;
 
 }
+
 
 .banner>* {
     display: flex;
@@ -484,10 +484,10 @@ h4:nth-child(odd) {
 }
 
 .banner h2 {
-    width: 40%;
+    width: 50%;
     color: #61082b;
     line-height: 42px;
-    word-spacing: 0.1em;
+    word-spacing: 0.08em;
     letter-spacing: 0.03em;
 
 }
@@ -495,6 +495,35 @@ h4:nth-child(odd) {
 .banner a {
     padding-left: 50px;
     padding-right: 50px;
-    word-spacing: 0.1em;
+    border: none;
+}
+
+
+
+/* faq */
+.faq {
+    padding: 20px 0 150px;
+}
+
+.faq h2 {
+    word-spacing: 0.08em;
     letter-spacing: 0.03em;
+    padding-bottom: 60px;
+}
+
+.faq>.flex {
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 35px 0;
+}
+
+
+
+.faq>* {
+    border-bottom: 1px solid #b0b0b0;
+}
+
+.faq i {
+    margin-right: 45px;
+    font-size: 0.7em;
 }
