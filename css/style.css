@@ -389,6 +389,7 @@ h4 {
 .col-3 {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .col-1>*,
@@ -397,6 +398,7 @@ h4 {
     text-align: center;
     padding: 80px;
     display: flex;
+    aspect-ratio: 1 / 1;
 }
 
 .col-1 img,
@@ -405,6 +407,11 @@ h4 {
 
 
 }
+
+.col-1-4 {
+    max-width: 25%;
+}
+
 
 .box1 {
     background-color: #a2d39b;
@@ -438,7 +445,11 @@ h4 {
 
 
 .col-2>* {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+}
+
+.col-2 img {
+    width: 50%;
 }
 
 .col-2 div {
