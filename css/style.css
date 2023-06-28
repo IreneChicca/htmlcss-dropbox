@@ -12,7 +12,7 @@
 }
 
 .container-s {
-    width: 1000px;
+    width: 950px;
     margin: 0 auto;
 }
 
@@ -460,4 +460,41 @@ h4:nth-child(odd) {
 
 .box8 {
     background-color: #ffd830;
+}
+
+
+
+/* banner */
+
+.banner {
+
+    background-color: #b4d0e7;
+
+    height: 300px;
+
+}
+
+.banner>* {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+
+
+}
+
+.banner h2 {
+    width: 40%;
+    color: #61082b;
+    line-height: 42px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.03em;
+
+}
+
+.banner a {
+    padding-left: 50px;
+    padding-right: 50px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.03em;
 }
