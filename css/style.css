@@ -375,3 +375,50 @@ h4:nth-child(odd) {
     display: inline-block;
     padding: 40px 0 100px;
 }
+
+.boxes {
+    display: flex;
+}
+
+.boxes>* {
+    width: calc(100% / 3);
+
+}
+
+.col-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1>* {
+    width: calc(100% / 2);
+    text-align: center;
+
+    padding: 80px;
+}
+
+.col-1 img {
+    filter: invert(1);
+
+
+}
+
+.box1 {
+    background-color: #a2d39b;
+    box-shadow: inset 0px 0px 1px 8px #d1e9cd;
+
+}
+
+.box2 {
+    background-color: #61082b;
+}
+
+.box3 {
+    background-color: #0093ce;
+}
+
+
+.box4 {
+    background-color: red;
+
+}
